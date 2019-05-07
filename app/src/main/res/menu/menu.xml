@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="rate App"
+    android:id="@+id/rate"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_grade_black_24dp"
+    ></item>
+
+    <item android:title="contacts"
+        android:id="@+id/contactsss"
+        ></item>
+</menu>

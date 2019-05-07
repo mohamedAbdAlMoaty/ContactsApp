@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="6"
+    tools:context="com.example.nh.contactsapp.Single">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:text="Name"
+            android:fontFamily="@font/arkhip_font"
+            android:id="@+id/namee"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_height="0dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:textSize="30dp"
+            android:text="Mobile:"
+            android:layout_weight="1"
+            android:fontFamily="@font/arkhip_font"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.8"
+            android:weightSum="5"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_width="0dp"
+                android:text="Number"
+                android:id="@+id/numberr"
+                android:textSize="20dp"
+                android:fontFamily="@font/arkhip_font"
+                android:layout_weight="4"
+
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/called"
+                android:layout_weight="0.5"
+                android:background="@android:drawable/ic_menu_call"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/sms"
+                android:layout_weight="0.5"
+                android:background="@android:drawable/sym_action_chat"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="30dp"
+            android:text="Email:"
+            android:fontFamily="@font/arkhip_font"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="0dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Email"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/emaill"
+            android:fontFamily="@font/arkhip_font"
+            android:onClick="ok"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_height="0dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/remove"
+            android:layout_weight="1"
+            android:background="@drawable/colorbtn"
+            android:textColor="#FFF"
+            android:text="Remove"
+            android:fontFamily="@font/arkhip_font"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
