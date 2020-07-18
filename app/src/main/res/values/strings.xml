@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">ContactsApp</string>
     <string name="title_activity_single_page">singlePage</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="email">Email:</string>
+    <string name="remove">Remove</string>
+    <string name="rate_our_app">Rate Our App</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="phone_number">Phone Number ...</string>
+    <string name="username">Username ...</string>
+    <string name="mobile">Mobile:</string>
 </resources>

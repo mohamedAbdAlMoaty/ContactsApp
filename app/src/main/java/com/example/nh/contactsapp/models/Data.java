@@ -1,9 +1,7 @@
-package com.example.nh.contactsapp;
+package com.example.nh.contactsapp.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-
-import java.io.Serializable;
 
 /**
  * Created by HP on 5/4/2018.

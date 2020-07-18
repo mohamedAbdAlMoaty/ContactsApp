@@ -15,20 +15,22 @@
         <TextView
             android:layout_width="match_parent"
             android:id="@+id/nam"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:paddingLeft="10dp"
-            android:text="Name"
+            android:text="@string/name"
             android:layout_weight="0.5"
-            android:layout_height="0dp" />
+            android:layout_height="0dp"
+            android:paddingStart="10dp" />
         <TextView
             android:layout_width="match_parent"
             android:id="@+id/num"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:paddingLeft="10dp"
-            android:text="Number"
+            android:text="@string/number"
             android:layout_weight="0.5"
-            android:layout_height="0dp" />
+            android:layout_height="0dp"
+            android:paddingStart="10dp" />
     </LinearLayout>
 
 

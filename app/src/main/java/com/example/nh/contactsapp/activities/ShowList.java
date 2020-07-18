@@ -1,17 +1,19 @@
-package com.example.nh.contactsapp;
+package com.example.nh.contactsapp.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.PopupMenu;
-import android.widget.Toast;
+
+import com.example.nh.contactsapp.database.DatabaseHelper;
+import com.example.nh.contactsapp.R;
+import com.example.nh.contactsapp.adapters.Customlistview;
+import com.example.nh.contactsapp.models.Data;
 
 import java.util.ArrayList;
 

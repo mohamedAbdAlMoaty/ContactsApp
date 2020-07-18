@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/root"
     android:gravity="center_horizontal"
     android:weightSum="1"
     tools:context="com.example.nh.contactsapp.activities.MainActivity">
@@ -22,7 +21,7 @@
             android:layout_width="match_parent"
             android:id="@+id/email"
             android:inputType="textEmailAddress"
-            android:hint="@string/email"
+            android:hint="Email ..."
             android:background="@drawable/strock"
             android:padding="7dp"
            android:fontFamily="@font/arkhip_font"
@@ -33,7 +32,7 @@
         <EditText
             android:layout_width="match_parent"
             android:id="@+id/name"
-            android:hint="@string/username"
+            android:hint="Username ..."
             android:layout_marginTop="15dp"
             android:background="@drawable/strock"
             android:padding="7dp"
@@ -50,7 +49,7 @@
             android:padding="7dp"
             android:layout_weight="0.05"
             android:fontFamily="@font/arkhip_font"
-            android:hint="@string/phone_number"
+            android:hint="Phone Number ..."
             android:inputType="number"
             android:layout_height="wrap_content"
             />

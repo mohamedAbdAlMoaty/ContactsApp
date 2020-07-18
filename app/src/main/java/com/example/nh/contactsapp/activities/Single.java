@@ -1,4 +1,4 @@
-package com.example.nh.contactsapp;
+package com.example.nh.contactsapp.activities;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,6 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.nh.contactsapp.database.DatabaseHelper;
+import com.example.nh.contactsapp.R;
+import com.example.nh.contactsapp.models.Data;
 
 public class Single extends AppCompatActivity {
 

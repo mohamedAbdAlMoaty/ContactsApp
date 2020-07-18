@@ -1,4 +1,4 @@
-package com.example.nh.contactsapp;
+package com.example.nh.contactsapp.activities;
 
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.RatingBar;
 import android.widget.Toast;
+
+import com.example.nh.contactsapp.R;
 
 public class RateActivity extends AppCompatActivity {
 

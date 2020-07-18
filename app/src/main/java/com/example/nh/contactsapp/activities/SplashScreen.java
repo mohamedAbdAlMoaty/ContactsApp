@@ -1,8 +1,11 @@
-package com.example.nh.contactsapp;
+package com.example.nh.contactsapp.activities;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.nh.contactsapp.R;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -11,19 +14,13 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        Thread t=new Thread(new Runnable() {
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                try{
-                    Thread.sleep(3000);
-                    Intent i=new Intent(SplashScreen.this,MainActivity.class);
-                    startActivity(i);
-                }
-                catch (Exception ex){
-
-                }
+                Intent i=new Intent(SplashScreen.this,MainActivity.class);
+                startActivity(i);
+                finish();
             }
-        });
-        t.start();
+        },3000);
     }
 }
